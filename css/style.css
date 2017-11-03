@@ -10620,6 +10620,10 @@ div.img-circle {
 }
 p {
 	margin-bottom:20px;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'PT Sans', sans-serif;
+  color: #555555;
 }
 a {
 	color:#ffa500;
@@ -17609,3 +17613,105 @@ only screen and (max-width:767px) {
 }
 /* End */
 /* /bitrix/templates/x5_main_test/components/bitrix/catalog.section/services-ver-4/style.css?1507195110226 */
+
+body .text-area {
+  font-family: 'PT Sans', sans-serif !important;
+  font-size: 16px !important;
+  line-height: 28px !important;
+  color: #555 !important;
+}
+
+.text-area p {
+  margin: 0 0 20px;
+}
+
+.text__area ul {
+  margin: 0 0 20px;
+  list-style: none !important;
+  padding: 0;
+}
+
+.text__area li {
+  display: block;
+  padding-left: 20px;
+  position: relative;
+}
+
+.text__area li span {
+  display: block;
+  position: absolute;
+  left: 0;
+}
+
+.text__area li span:after {
+  content: '.';
+}
+
+.text__area a {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+.text__area a:hover,
+.text__area a:focus,
+.text__area a:active {
+  text-decoration: underline;
+  color: #ffa500;
+}
+
+.text__area h2 {
+  font-size: 32px;
+  line-height: 38px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.text__area h2 {
+  font-size: 38px;
+  line-height: 38px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.text__area strong,
+.text__area b {
+  font-weight: bold;
+}
+
+.text__area img {
+  max-width: 100%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.text__area blockquote {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 20px 20px 20px 102px;
+  position: relative;
+  background: rgba(76,183,73,.1);
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
+  width: 100%;
+  vertical-align: middle;
+  min-height: 88px;
+}
+
+.text__area blockquote::after {
+  display: none;
+}
+
+.text__area blockquote i {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  margin-top: -35px;
+}
