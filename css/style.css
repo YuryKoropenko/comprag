@@ -9911,11 +9911,11 @@ img.mfp-img {
 a, .text-default {
 	color: #ffa500;
 }
-a:hover, a:focus,
+a:hover, a:focus, a:active,
 .default-bg .white-bg p a:hover,
 .default-bg .gray-bg p a:hover,
 .dark-bg .gray-bg p a:hover {
-	color: #e09200;
+	color: #e09200 !important;
 }
 mark,
 .mark {
